@@ -1,0 +1,27 @@
+.ChatConatiner {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background: #ffffff;
+    padding: 2px;
+    border: 1px solid lightgray;
+}
+
+.ChatHeaderOutDiv {
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+
+.ChatInputOutDiv {
+    display: block;
+    height: 90px;
+    width: 100%;
+}
+
+.ChatTextViewOuterDiv {
+    display: block;
+    height: calc(100vh - 300px);
+    width: 100%;
+}

@@ -1,0 +1,82 @@
+.ChatMessageChunk {
+    display: table;
+    width: 100%;
+}
+
+.ChatMessageChunkInnerDiv {
+    display: table-cell;
+}
+
+.ChatMessageChunkInnerAlignRightDiv {
+    float: right;
+}
+
+.ChatMessageChunkInnerAlignLeftDiv {
+    float: left;
+}
+
+.ChatMessageChunkContent {
+    display: block;
+    margin: 20px;
+    font-family:sans-serif;
+    font-size:large;
+    color: black;
+}
+
+.ChatMessageChunkTS {
+    display: block;
+    margin-bottom: 20px;
+    font-family:sans-serif;
+    font-size:small;
+    color: black;
+    opacity: 80%;
+    margin-top: -10px;
+}
+
+.ChatMessageChunkTSAlignLeft {
+    float: left;
+    margin-left: 20px;
+}
+
+.ChatMessageChunkTSAlignRight {
+    float: right;
+    margin-right: 20px;
+}
+
+.ChatMessageChunkContentAlignRight {
+    background-color: #F44A4A !important;
+    color: white !important;
+}
+
+.ChatMessageChunkContentAlignLeft {
+
+}
+
+.chat-bubble {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .chat-bubble::before, .chat-bubble::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .chat-bubble::before {
+    left: 20px;
+    border-color: transparent #fff transparent transparent;
+    border-width: 10px 10px 0 0;
+  }
+  
+  .chat-bubble::after {
+    right: 20px;
+    border-color: transparent transparent transparent #fff;
+    border-width: 10px 0 0 10px;
+  }

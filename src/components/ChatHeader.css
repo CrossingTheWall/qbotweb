@@ -1,0 +1,37 @@
+.ChatHeader {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    height: 100%;
+}
+
+.ChatHeaderAvatarDiv {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.ChatHeaderAvatarDiv img {
+    width: 100%;
+}
+
+.ChatHeaderRightDiv {
+    display: table-cell;
+    float: left;
+    margin-left: 40px;
+    margin-top: -75px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ChatHeaderTitle {
+    font-size: large;
+}
+
+.ChatHeaderBrief {
+    margin-top: 10px;
+    opacity: 40%;
+    font-size: medium;
+}
